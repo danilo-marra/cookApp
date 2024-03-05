@@ -27,7 +27,7 @@ export default function Index(){
 
       <ScrollView contentContainerStyle={styles.ingredients} showsVerticalScrollIndicator={false}>
         {
-          Array.from({length: 100}).map((item, index) => (
+          Array.from({length: 90}).map((item, index) => (
             <Ingredient 
               key={index} 
               name="Tomate" 
